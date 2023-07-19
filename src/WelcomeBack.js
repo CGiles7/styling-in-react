@@ -1,7 +1,7 @@
 function WelcomeBack({ name = "valued customer" }) {
     const pStyle = {
       color: "black",
-      fontFamily: "sans-serif",
+      fontFamily: "Zen Dots, cursive",
     };
     const userName = {
       padding: "2px 4px",
