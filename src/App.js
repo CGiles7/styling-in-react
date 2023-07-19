@@ -1,16 +1,18 @@
 import "./App.css";
-import Header from "./Header";
 import WelcomeBack from "./WelcomeBack";
-import Footer from "./Footer";
+import Quote from "./Quote";
+
+const quote = {
+  text:
+    "I am great believer in luck, and I find the harder I work, the more I have of it.",
+  author: "Thomas Jefferson",
+};
 
 function App() {
   return (
     <>
-      <Header />
       <WelcomeBack name="Joe" />
-      <WelcomeBack name="Anna" />
-      <WelcomeBack />
-      <Footer />
+      <Quote quote={quote} />
     </>
   );
 }
